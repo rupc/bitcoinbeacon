@@ -5,8 +5,10 @@ A project to create a public randomness beacon using the bitcoin blockchain and 
 ---
 
 ## Execution
+```
 dev_appserver.py --clear_datastore=yes app.yaml
-https://cloud.google.com/appengine/docs/standard/python/tools/using-local-server
+```
+Reference https://cloud.google.com/appengine/docs/standard/python/tools/using-local-server
 
 ## Setup
 ### Install required modules for python
