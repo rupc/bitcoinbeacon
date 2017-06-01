@@ -537,8 +537,8 @@ function setFieldsCustomTab()
 function getFutureBlockNum(resultsDateVal, resultsTimeVal)
 {
 	$('#futureBlockNumDisplay').css("color", "black").html("Calculating...");
-    resultsDateVal = "2017/05/31";
-    resultsTimeVal = "1:00";
+    /* resultsDateVal = "2017/05/31";
+    resultsTimeVal = "1:00"; */
 
 	console.log("resultsDateVal: " + resultsDateVal);
 	console.log("resultsTimeVal: " + resultsTimeVal);
